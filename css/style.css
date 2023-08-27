@@ -72,9 +72,6 @@ nav.navbar .navbar-brand img {
 .content .container > div {
     flex-basis: 50%;
 }
-.content .container > div:nth-child(1) {
-
-}
 .content .container > div:nth-child(2) {
     margin-top: 5%;
 }
@@ -150,6 +147,12 @@ nav.navbar .navbar-brand img {
 .content span{
     color: #ff7200;
     font-size: 65px;
+}
+
+@media (max-width: 769px) {
+    .content span {
+        font-size: 40px;
+    }
 }
 footer {
     background-color: #000000e0;
