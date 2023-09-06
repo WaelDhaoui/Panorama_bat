@@ -187,3 +187,44 @@ footer .container > p {
     margin: 0 auto;
     width: fit-content;
 }
+
+
+/*********** gros_oeuvre *****************/
+#gros_oeuvre .p-content h2:first-child {
+    text-transform: uppercase;
+    position: relative;
+    width: fit-content;
+    margin: 2% auto;
+    font-size: larger;
+    padding: 1%;
+    box-shadow: 0 0 0px 2px black;
+}
+#gros_oeuvre .p-content h2:first-child::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    left: -19%;
+    top: 45%;
+    background-color: #2196f3;
+}
+#gros_oeuvre .p-content h2:first-child::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    right: -19%;
+    top: 45%;
+    background-color: #2196f3;
+}
+
+#owl-demo .item{
+    margin: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    height: 455px;
+}
