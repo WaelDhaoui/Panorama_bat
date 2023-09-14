@@ -1,143 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/all.min.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet"/>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Panorama Bat</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/beautiful-building.png" rel="icon">
+  <link href="assets/img/beautiful-building.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction
+  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="img/modele-logo-p-degrade_23-2149372725.png" alt="logo">
-                </a>
-                <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse flex-grow-custom" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-lg-5">
-                    <li class="nav-item pe-5">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
-                    </li>
 
-                    <li class="nav-item dropdown pe-5">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Nos Services
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./gros_srv.html">Gros-œuvre</a></li>
-                            <li class="dropdown-divider"></li>
-                            <li class="nav-item dropend">
-                                <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownNode" role="button" data-bs-toggle="dropdownNode" aria-expanded="false">
-                                    Second-œuvre
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownNode">
-                                    <li><a class="dropdown-item" href="#">Demolition</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Electricite</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Plomberie</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Placo</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Revêtement mur</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Revêtement sol</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-                    <li class="nav-item pe-5">
-                        <a class="nav-link" href="./projets.html">Projets</a>
-                    </li>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Panorama Bat<span>.</span></h1>
+      </a>
 
-                    <li class="nav-item pe-5">
-                    <a
-                        class="nav-link"
-                        href="./contact.html"
-                        tabindex="-1"
-                        aria-disabled="true"
-                        >Contact</a
-                    >
-                    </li>
-
-                </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    
-    <main>
-        <div class="content">
-            <div class="container">
-                <div>
-                    <h1><span>PANORAMA BAT</span></h1>
-                    <p class="par">société par actions simplifiée, immatriculée sous le SIREN 889421152, est active depuis 2 ans. Implantée à YERRES (91330), elle est spécialisée dans le secteur d'activité de la construction de maisons individuelles</p>
-                    <button class="cn"><a href="#">Contactez Nous</a></button> 
-                </div>
-            </div>
-        </div>
-        <div class="p-content fs-5 pb-5 pt-5 px-4 px-sm-0" style="text-align: justify;">
-            <div class="container">
-                <p class="mb-3"><span class="fw-bold">PANORAMA BAT</span>, société par actions simplifiée, immatriculée sous le SIREN 889421152, est active depuis 2 ans. Implantée à YERRES (91330), elle est spécialisée dans le secteur d'activité de la construction de maisons individuelles. Societe.com recense 
-                    2 établissements ainsi que 2 mandataires depuis le début de son activité, le dernier événement notable de cette entreprise date du 10-05-2021. Mehrez HBIT est président de l'entreprise PANORAMA BAT.</p>
-                <p class="mb-3">Peu importe que vous soyez un particulier, un professionnel, un architecte, un bureau d’études ou un investisseur, Fubat sera à la hauteur de vos attentes.</p>
-                <p>En tant qu’entreprise générale de bâtiment, nous exerçons plusieurs métiers complémentaires.</p>
-                <h2 class="my-4">L'expertise Panorama bat</h2>
-                <ul class="fs-5">
-                    <li>Gros œuvre : construction des bases d’un bâtiment.</li>
-                    <li>Revêtement : nous intervenons pour vos travaux de revêtement mural et au sol.</li>
-                    <li>Plomberie : service de plomberie du béton et d’enrobés dans le respect des normes prévues par les DTU.</li>
-                    <li>Electricite : nous sommes spécialisés pour vos travaux d'electricite.</li>
-                    <li>Démolition : déconstruction ou modification d’un bâtiment.</li>
-                    <li>Etc..</li>
-                </ul>
-                <p class="fw-bold m-4 mx-0" style="font-size: 19px;">Pourquoi choisir Panorama Bat ?</p>
-                <p>Entreprise composée de plusieurs corps de métiers pouvant vous proposer un service complet. Nous mettons au service de votre projet nos savoir-faire uniques pour pouvoir vous proposer un service professionnel de qualité ainsi que la mise en application des DTU. Fubat vous propose une étude d’ingénierie (avec ses partenaires ingénieurs) et mise en œuvre de la réalisation pour la pose des profilés métalliques ou bois. Nous réalisons les travaux de gros-œuvres sur des maisons individuelles ou collectives, des garages, des granges.</p>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="services.html">Gros-œuvre</a></li>
+              <li class="dropdown"><a href="#"><span>Second-œuvre</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                    <li>Une équipe expérimentée, soudée, pour qui la satisfaction du client est une priorité</li>
-                    <li>Des conseillers, qui seront à votre écoute, qui prendront en compte vos besoins</li>
-                    <li>À jours sur les dernières innovations dans le respect des normes et des certifications</li>
-                    <li>Consciencieux, nous permettons à nos collaborateurs de se former et d’évoluer</li>
-                    <li>Interventions à Paris</li>
+                  <li><a href="#">Demolition</a></li>
+                  <li><a href="#">Electricite</a></li>
+                  <li><a href="#">Plomberie</a></li>
+                  <li><a href="#">Placo</a></li>
+                  <li><a href="#">Revêtement mur</a></li>
+                  <li><a href="#">Revêtement sol</a></li> 
                 </ul>
-                <p class="fw-bold text-center">Vous souhaitez rénover votre maison ? entreprendre des travaux ? réaliser une étude ?</p>
-            </div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="projects.html">Projects</a></li>          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Bienvenue à <br/><span>PANORAMA BAT</span></h2>
+            <p data-aos="fade-up">Nous nous engageons à transformer vos rêves de construction en réalité.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#constructions" class="btn-get-started">Contactez Nous!</a>
+          </div>
         </div>
-    </main>
-    <footer class="pt-5">
-        <div class="container">
-            <div class="d-grid d-sm-flex text-center">
-                <div class="col-12 col-sm-6">
-                    <div class="img">
-                        <img src="img/modele-logo-p-degrade_23-2149372725.png" alt="Logo">
-                    </div>
-                    <p class="m-0 mt-3">Panorama Bat, entreprise de bâtiment à Paris</p>
-                </div>
-                <div class="col-12 col-sm-6 pt-3">
-                    <a href="https://www.instagram.com/panorama_batiment/"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <p class="p-4 text-center">© 2023 – PANORAMA BAT. Tous droits réservés.</p>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 class="fs-2">Qui Somme Nous</h2>
+          <p>Votre projet de construction mérite le savoir-faire d'une entreprise dévouée à l'excellence. Bienvenue chez Panorama Bat, votre partenaire de confiance dans le domaine de la construction.</p>
         </div>
-    </footer>
-    
-    <script src="js/bootstrap.bundle.js"></script>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Qualité Inégalée</h4>
+                    <p>Notre engagement envers la qualité est inébranlable. Chaque projet que nous entreprenons est exécuté avec un souci méticuleux du détail, des matériaux de haute qualité et une excellence inégalée dans le travail. Votre satisfaction est notre priorité absolue.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Service Complet</h4>
+                    <p>Nous offrons une gamme complète de services de construction, de la planification initiale à la livraison finale. Notre équipe expérimentée gère chaque étape du processus pour vous, de sorte que vous n'avez pas à vous soucier des tracas de la construction.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-3.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Expertise de Confiance</h4>
+                    <p>Nous sommes une entreprise de construction de confiance, avec des décennies d'expérience dans l'industrie. Vous pouvez compter sur notre expertise pour mener à bien vos projets, qu'il s'agisse de constructions résidentielles, commerciales ou industrielles.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-4.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Réalisation de Votre Vision</h4>
+                    <p>Notre objectif est de transformer votre vision en réalité. Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins, vos attentes et vos objectifs, puis nous mettons en œuvre votre projet de manière professionnelle, dans les délais et le budget convenus. Avec nous, votre projet de construction est entre de bonnes mains.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mountain-city"></i>
+              </div>
+              <h3>Gros-œuvre</h3>
+              <p>Les travaux de gros-œuvre sont l’étape la plus importante dans la construction d’une bâtisse. Ils désignent l’ensemble des travaux qui ont pour objectif de construire les bases et l’ossature d’un bâtiment pour garantir sa stabilité, sa solidité et son isolation.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3>Demolition</h3>
+              <p>Notre équipe de professionnels de la démolition est spécialisée dans la déconstruction sécurisée et efficace de structures. Nous utilisons des méthodes et des équipements de pointe pour garantir que chaque projet de démolition est mené à bien de manière sécurisée, tout en minimisant les perturbations pour l'environnement environnant.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-trowel-bricks"></i>
+              </div>
+              <h3>Electricite</h3>
+              <p>Nos experts en électricité sont là pour répondre à tous vos besoins électriques. De l'installation de nouveaux systèmes électriques à la réparation et à la maintenance des installations existantes, nous nous engageons à assurer la sécurité et la fiabilité de vos systèmes électriques.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-helmet-safety"></i>
+              </div>
+              <h3>Plomberie</h3>
+              <p>Notre équipe de plombiers qualifiés est prête à résoudre tous vos problèmes de plomberie, que ce soit pour des réparations, des installations ou des rénovations. Nous assurons un service rapide et efficace pour garantir que vos systèmes de plomberie fonctionnent de manière optimale.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <h3>Placo</h3>
+              <p>La pose de plaques de plâtre (placo) est notre domaine d'expertise. Nous offrons des solutions de cloisonnement et d'isolation qui répondent à vos besoins spécifiques, que ce soit pour des espaces résidentiels ou commerciaux. Notre travail de finition est impeccable, garantissant des surfaces lisses et esthétiques.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3>Revêtement Sol</h3>
+              <p>Nos spécialistes des revêtements de sol sont là pour vous aider à choisir et à installer le revêtement parfait pour vos espaces. Que vous recherchiez du carrelage, du bois, du vinyle ou tout autre type de revêtement, nous vous proposons des options de haute qualité et une installation professionnelle pour une apparence durable et attrayante de vos sols.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Alt Services Section ======= -->
+    <section id="alt-services" class="alt-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Pourquoi choisir Panorama Bat?</h3>
+            <p>Chez Panorama Bat, nous nous engageons à être la première et la meilleure option pour tous vos besoins en construction et en rénovation. Voici quelques raisons convaincantes pour lesquelles vous devriez choisir notre entreprise :</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Expertise Inégalée</a></h4>
+                <p>Forts d'années d'expérience dans l'industrie de la construction, nous avons acquis une expertise inégalée dans tous les aspects de ce domaine. Notre équipe de professionnels chevronnés possède les compétences et les connaissances nécessaires pour garantir que chaque projet soit mené à bien avec succès.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Qualité Supérieure</a></h4>
+                <p>La qualité est notre maître-mot. Nous ne transigeons jamais sur la qualité des matériaux que nous utilisons ni sur la minutie de notre travail. Chaque projet est réalisé avec une attention méticuleuse aux détails pour garantir une finition exceptionnelle.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Gamme Complète de Services</a></h4>
+                <p>De la démolition à la plomberie, de l'électricité à la pose de plaques de plâtre et aux revêtements de sol, Panorama Bat offre une gamme complète de services. Cela signifie que vous pouvez gérer tous les aspects de votre projet sous un même toit, simplifiant ainsi le processus et garantissant une coordination fluide.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Respect des Délais et du Budget</a></h4>
+                <p>Nous comprenons l'importance du respect des délais et du budget. Notre engagement envers l'efficacité et la transparence signifie que vous pouvez avoir confiance en notre capacité à respecter les échéanciers et les coûts convenus.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Alt Services Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Panorama Bat</h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +33 06 17 35 44 79<br>
+                <strong>Email:</strong> gestion.panoramabat@gmail.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="https://www.instagram.com/panorama_batiment/" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="services.html">Gros-œuvre</a></li>
+              <li><a href="projects.html">Projets</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li style="color: rgba(255, 255, 255, 0.6)">Gros-œuvre</li>
+              <li style="color: rgba(255, 255, 255, 0.6)">Second-œuvre</li>
+              <li style="color: rgba(255, 255, 255, 0.6)">Demolition</li>
+              <li style="color: rgba(255, 255, 255, 0.6)">Electricite</li>
+              <li style="color: rgba(255, 255, 255, 0.6)">Placo</li>
+            </ul>
+          </div><!-- End footer links column-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Panorama Bat</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          Developed by <a href="https://www.facebook.com/wael.dhaoui.20/">Wael Dhaoui</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>

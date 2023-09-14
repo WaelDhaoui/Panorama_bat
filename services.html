@@ -28,6 +28,25 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .section-header h2:before {
+      margin: 0 15px 10px 0;
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90px;
+    }
+
+    .section-header h2:after {
+      margin: 0 0 10px 15px;
+      position: absolute;
+      bottom: -23px;
+      right: 50%;
+      transform: translateX(50%);
+      width: 90px;
+    }
+  </style>
 
   <!-- =======================================================
   * Template Name: UpConstruction
@@ -55,9 +74,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Accueil</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#" class="active"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="services.html" class="active">Gros-œuvre</a></li>
+              <li class="active"><a href="services.html">Gros-œuvre</a></li>
               <li class="dropdown"><a href="#"><span>Second-œuvre</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Demolition</a></li>
@@ -70,8 +89,8 @@
               </li>
             </ul>
           </li>
-          <li><a href="projects.html">Projets</a></li>          
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="projects.html">Projects</a></li>          
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -84,78 +103,125 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Contact</h2>
+        <h2>Services</h2>
         <ol>
           <li><a href="index.html">Accueil</a></li>
-          <li>Contact</li>
+          <li>Services</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-map"></i>
-              <h3>Nos Address</h3>
-              <p>34 Rue du Parc, 91330 Yerres</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>gestion.panoramabat@gmail.com</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+33 06 17 35 44 79</p>
-            </div>
-          </div><!-- End Info Item -->
-
+        <div class="section-header">
+          <h2 class="fs-2">Nos travaux de gros-œuvre</h2>
         </div>
 
-        <div class="row gy-4 mt-1">
+        <div class="row gy-4">
 
-          <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.2079842084177!2d2.5117829!3d48.7206174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60a47934ae5b1%3A0x845b43881ee4d72c!2s34%20Rue%20du%20Parc%2C%2091330%20Yerres%2C%20France!5e0!3m2!1sfr!2stn!4v1694731110075!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div><!-- End Google Maps -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Construction de maison a montfermeuil R+1</h4>
+                    <p>À Montfermeuil, nous réalisons vos rêves de maison avec notre expertise en construction R+1. Notre équipe expérimentée travaille en étroite collaboration avec vous pour concevoir et construire une maison qui répond à vos besoins et à votre vision. Du rez-de-chaussée à l'étage supérieur, chaque détail est pris en compte pour créer un espace de vie confortable et fonctionnel. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
 
-          <div class="col-lg-6">
-            <form action="#" id="reservationForm" class="php-email-form">
-              <div class="row gy-4">
-                <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nom" required>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
                 </div>
-                <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Construction de Maison à Montfermeuil</h4>
+                    <p>Que vous envisagiez de construire la maison de vos rêves à Montfermeuil ou que vous souhaitiez une maison individuelle conçue sur mesure, nous sommes votre partenaire de confiance. Notre équipe dévouée est là pour concrétiser vos aspirations en créant un espace de vie qui correspond parfaitement à votre style de vie.</p>
+                  </div>
                 </div>
               </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-3.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Construction de Maison Individuelle à Montfermeuil</h4>
+                    <p>Pour une maison qui reflète votre style de vie unique, optez pour notre service de construction de maisons individuelles à Montfermeuil. Chaque maison que nous construisons est une œuvre d'art sur mesure, conçue pour répondre à vos besoins spécifiques. Notre équipe de professionnels dédiés travaille avec vous pour créer une maison qui est à la fois fonctionnelle et esthétiquement remarquable, dans le charmant cadre de Montfermeuil. </p>
+                  </div>
+                </div>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div><!-- End Contact Form -->
+            </div>
+          </div><!-- End Card Item -->
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Alt Services Section 2 ======= -->
+    <section id="alt-services-2" class="alt-services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Les travaux de gros-œuvre comprennent :</h3>
+            <p>Les travaux de gros-œuvre sont l’étape la plus importante dans la construction d’une bâtisse. Ils désignent l’ensemble des travaux qui ont pour objectif de construire les bases et l’ossature d’un bâtiment pour garantir sa stabilité, sa solidité et son isolation.</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">L’étude de sol</a></h4>
+                <p>Analyse du terrain afin de définir les méthodes de construction de votre maison.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">L’étude d’ingénierie</a></h4>
+                <p>Nos ingénieurs en bâtiment étudient votre projet afin de définir leur faisabilité.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Le terrassement</a></h4>
+                <p>Préparation du terrain avant l’installation de l’infrastructure.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">La construction des fondations</a></h4>
+                <p>Une des premières étapes de construction d’une maison ayant pour but de supporter les charges.</p>
+              </div>
+            </div><!-- End Icon Box -->
+          </div>
+
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services-2.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        </div>
+
+      </div>
+    </section><!-- End Alt Services Section 2 -->
 
   </main><!-- End #main -->
 
@@ -170,7 +236,8 @@
             <div class="footer-info">
               <h3>Panorama Bat</h3>
               <p>
-                34 Rue du Parc, 91330 Yerres<br><br>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
                 <strong>Phone:</strong> +33 06 17 35 44 79<br>
                 <strong>Email:</strong> gestion.panoramabat@gmail.com<br>
               </p>
